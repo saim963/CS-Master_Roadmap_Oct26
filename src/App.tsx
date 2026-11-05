@@ -18,7 +18,7 @@ export default function App() {
   }, [loadProgress]);
 
   return (
-    <BrowserRouter basename="/CS-Master-Roadmap_Oct26">
+    <BrowserRouter basename="/CS-Master_Roadmap_Oct26">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
